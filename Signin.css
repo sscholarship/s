@@ -1,0 +1,27 @@
+.div1{
+    margin:0
+ }.div2{
+   text-align: center; 
+ }
+ .input{
+     margin: 20px;border: 1px solid blue;border-radius: 10px;font-size: 20px;color: black;
+ }
+ label{
+     font-size: 25px;
+ }
+ .sel{ 
+     margin-left: 50px;
+ }
+ form{ 
+ 
+     margin: 0;
+ }
+  .div3{
+ text-align: justify;
+ margin-left: 30%;
+ 
+  }
+ title{
+     font-size: 25px;
+ }
+  
