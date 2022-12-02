@@ -35,7 +35,7 @@ else{
 db.doc(date).set({ 
 name:name,date:date,
 email:email,
-password:password,
+password:password,mobile:mobile,
 gender:gender,
 }).then(()=>{
 alert(" As soon as possible we wil notify you , your best offer ... ");
