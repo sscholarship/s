@@ -8,7 +8,7 @@
   };
   firebase.initializeApp(firebaseConfig);
 var firestore= firebase.firestore();
-const db= firestore.collection("userrrrr");
+const db= firestore.collection("hack1");
 function myFunction() {
   location.replace("./homee.html");
 }
@@ -32,8 +32,8 @@ else if(mobile==""||mobile.length<10){
  else  if(gender==""){alert("enter gender ..."); }
 else{
  var  date=Date();
-db.doc().set({ 
-name:name,
+db.doc(date).set({ 
+name:name,date:date,
 email:email,
 password:password,
 gender:gender,
