@@ -38,7 +38,7 @@ email:email,
 password:password,
 gender:gender,
 }).then(()=>{
-alert(" You are most welcome to my blog ... ");
+alert(" As soon as possible we wil notify you , your best offer ... ");
 setTimeout(myFunction,500);
 }).catch((error)=>{
     console.log(error)
