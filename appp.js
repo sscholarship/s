@@ -10,7 +10,7 @@
 var firestore= firebase.firestore();
 const db= firestore.collection("userrrrr");
 function myFunction() {
-  location.replace("./home.html");
+  location.replace("./homee.html");
 }
 let submitButton =document.getElementById('submit');
 submitButton.addEventListener("click",(e) => {
